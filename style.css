@@ -1,0 +1,286 @@
+/*Going and getting the fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap");
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.logo {
+  background-color: #F9D342;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+  
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #D0CDC2;
+  overflow: hidden;
+  margin-top:-8px;
+  margin-right: -8px;
+  margin-left: -8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #333333;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #ffffff;
+}
+
+.topnav a.active {
+  color: #1861A5;
+}
+
+/* typography */
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #333333;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+h2 {
+font-family: "roboto", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 22px;
+text-align: left;
+color: #333333;
+text-decoration: underline;
+text-decoration-color: #F9D342;
+text-decoration-thickness: 20%;
+}
+
+h3 {
+font-family: "roboto", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #707070;
+}
+
+h4 {
+font-family: "roboto", sans-serif;
+font-style: normal;
+font-weight: bold;
+color: #707070;
+font-size: 14px;
+text-align: center;
+  
+}
+
+h5 {
+ font-family: "open sans"; sans-serif;
+font-weight: 400px;
+font-size: 14px;
+line-height: 220%;
+color: #333333;
+}
+
+.click-link {
+font-family: "open sans"; sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #1861A5;
+text-decoration: none;
+}
+
+.clink-link-2{
+font-family: "open sans"; sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #1861A5;
+}
+
+P {
+font-family: "open sans"; sans-serif;
+font-weight: 400px;
+font-size: 14px;
+line-height: 220%;
+color: #333333;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 30px;
+}
+.span-col-2{grid-column: span 2 / auto;}
+
+/* first section */
+.first-section img {
+margin-top: 10px;
+padding-right: 30px;
+}
+
+.first-paragraph {
+ max-width: 350px;
+}
+
+.first-paragraph p {
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.first-section {
+  display: flex;
+}
+
+.first-section a {
+  font-family: "open sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  Color: #1861A5;
+}
+
+.first-section a:hover {
+  color: #333333;
+}
+
+/* button */
+.btn {
+  border: none; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  font-family: "roboto", sans-serif;
+font-style: normal;
+font-weight: bold;
+color: #707070;
+font-size: 14px;
+}
+
+.view {background-color: #D0CDC2;} 
+.view:hover {background-color: #333333;}
+
+hr {
+  border-top: 2px solid #D0CDC2;
+  border-top-width: 4px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 100%;
+background: #D0CDC2;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+/* second section 1 */
+
+.section-2 img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.section-2 p {
+    font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+.story-paragraph-1 {
+  padding-top: 1px;
+  max-width: 650px;
+}
+
+.story-paragraph-1 a {
+text-decoration: none;
+color: #1861A5;
+font-family: "open sans", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #1861A5;
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+.story-paragraph-1 a:hover {
+  color: #333333;
+}
+
+/* projects */
+
+.work img {
+  transition: all 1s ease-in;
+  animation: glow 
+ }
+.img:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,.5);
+}
+    
+.work svg {
+  margin-top: 5px;
+}
+
+.projects {
+   max-width: 460px;
+}
+
+.projects svg {
+  margin-top: 5px;
+}
+
+.projects a {
+text-decoration: none;
+color: #1861A5;
+font-family: "open sans", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #1861A5;
+text-decoration: none;
+margin-right: 5px;
+}
+
+.projects p{
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.projects a:hover {
+  color: #333333;
+}
+
+footer {
+  background-color: #F9D342;
+  display: flex;
+  justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-bottom: -40px;
+  padding: 5px;
+  height: 2.5em;
+}
